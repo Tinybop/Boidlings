@@ -2,11 +2,39 @@
     <iterations>16</iterations>
     <gravity x="0" y="0" />
     <damping>0.98</damping>
+    <shape type="poly">
+        <verts numVerts="4">
+            <vert x="-15" y="15" />
+            <vert x="15" y="15" />
+            <vert x="15" y="-15" />
+            <vert x="-15" y="-15" />
+        </verts>
+        <id>4391386480</id>
+        <body_id>4390903840</body_id>
+        <sensor>0</sensor>
+        <e>0.5</e>
+        <u>0.8</u>
+        <surface_v x="0" y="0" />
+        <collision_type>0</collision_type>
+        <group>0</group>
+        <layers>4294967295</layers>
+        <body>
+            <id>4390903840</id>
+            <mass>10</mass>
+            <inertia>1500</inertia>
+            <p x="679.855" y="155.048" />
+            <v x="0" y="0" />
+            <f x="0" y="0" />
+            <a>0.0437117</a>
+            <w>0</w>
+            <t>0</t>
+        </body>
+    </shape>
     <shape type="circle">
         <offset x="0" y="0" />
         <radius>58</radius>
-        <id>4359305856</id>
-        <body_id>4359305552</body_id>
+        <id>4390505648</id>
+        <body_id>4390505408</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
         <u>0.8</u>
@@ -15,7 +43,7 @@
         <group>0</group>
         <layers>4294967295</layers>
         <body rogue="1">
-            <id>4359305552</id>
+            <id>4390505408</id>
             <mass>INF</mass>
             <inertia>INF</inertia>
             <p x="1606.27" y="920.408" />
@@ -29,8 +57,8 @@
     <shape type="circle">
         <offset x="0" y="0" />
         <radius>66</radius>
-        <id>4359307520</id>
-        <body_id>4359307280</body_id>
+        <id>4390405920</id>
+        <body_id>4390405680</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
         <u>0.8</u>
@@ -39,7 +67,7 @@
         <group>0</group>
         <layers>4294967295</layers>
         <body rogue="1">
-            <id>4359307280</id>
+            <id>4390405680</id>
             <mass>INF</mass>
             <inertia>INF</inertia>
             <p x="946.754" y="1558.37" />
@@ -53,8 +81,8 @@
     <shape type="circle">
         <offset x="0" y="0" />
         <radius>53</radius>
-        <id>4359334032</id>
-        <body_id>4359320288</body_id>
+        <id>4505954224</id>
+        <body_id>4505953984</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
         <u>0.8</u>
@@ -63,7 +91,7 @@
         <group>0</group>
         <layers>4294967295</layers>
         <body rogue="1">
-            <id>4359320288</id>
+            <id>4505953984</id>
             <mass>INF</mass>
             <inertia>INF</inertia>
             <p x="1038.92" y="1126.89" />
@@ -77,8 +105,8 @@
     <shape type="circle">
         <offset x="0" y="0" />
         <radius>88</radius>
-        <id>4359337184</id>
-        <body_id>4359336944</body_id>
+        <id>4505956032</id>
+        <body_id>4505955792</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
         <u>0.8</u>
@@ -87,7 +115,7 @@
         <group>0</group>
         <layers>4294967295</layers>
         <body rogue="1">
-            <id>4359336944</id>
+            <id>4505955792</id>
             <mass>INF</mass>
             <inertia>INF</inertia>
             <p x="797.514" y="707.163" />
@@ -101,8 +129,8 @@
     <shape type="circle">
         <offset x="0" y="0" />
         <radius>124</radius>
-        <id>4331405504</id>
-        <body_id>4331405264</body_id>
+        <id>4506026096</id>
+        <body_id>4505957760</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
         <u>0.8</u>
@@ -111,7 +139,7 @@
         <group>0</group>
         <layers>4294967295</layers>
         <body rogue="1">
-            <id>4331405264</id>
+            <id>4505957760</id>
             <mass>INF</mass>
             <inertia>INF</inertia>
             <p x="1754.54" y="1453.35" />
@@ -126,7 +154,7 @@
         <a x="20.1764" y="68.7671" />
         <b x="263.134" y="12.3912" />
         <radius>66</radius>
-        <id>4359352272</id>
+        <id>4506027616</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -141,7 +169,7 @@
         <a x="464.113" y="63.7624" />
         <b x="263.134" y="12.3912" />
         <radius>66</radius>
-        <id>4331023248</id>
+        <id>4391211152</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -156,7 +184,7 @@
         <a x="729.982" y="76.38" />
         <b x="464.113" y="63.7624" />
         <radius>66</radius>
-        <id>4359242304</id>
+        <id>4391208560</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -171,7 +199,7 @@
         <a x="811.094" y="27.7124" />
         <b x="729.982" y="76.38" />
         <radius>66</radius>
-        <id>4331037536</id>
+        <id>4391245696</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -186,7 +214,7 @@
         <a x="1008.47" y="148.48" />
         <b x="811.094" y="27.7124" />
         <radius>66</radius>
-        <id>4331419920</id>
+        <id>4391241984</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -201,7 +229,7 @@
         <a x="1163.31" y="47.9311" />
         <b x="1008.47" y="148.48" />
         <radius>66</radius>
-        <id>4331040464</id>
+        <id>4391237744</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -216,7 +244,7 @@
         <a x="1470.97" y="94.7501" />
         <b x="1163.31" y="47.9311" />
         <radius>66</radius>
-        <id>4359390432</id>
+        <id>4391224288</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -231,7 +259,7 @@
         <a x="1654.91" y="280.354" />
         <b x="1470.97" y="94.7501" />
         <radius>66</radius>
-        <id>4330992032</id>
+        <id>4506146512</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -246,7 +274,7 @@
         <a x="1613.1" y="472.646" />
         <b x="1654.91" y="280.354" />
         <radius>66</radius>
-        <id>4359403728</id>
+        <id>4506143696</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -261,7 +289,7 @@
         <a x="1741.86" y="599.726" />
         <b x="1613.1" y="472.646" />
         <radius>66</radius>
-        <id>4330997104</id>
+        <id>4505991104</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -276,7 +304,7 @@
         <a x="2362" y="314.787" />
         <b x="1741.86" y="599.726" />
         <radius>66</radius>
-        <id>4330968208</id>
+        <id>4505994704</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -291,7 +319,7 @@
         <a x="2181.18" y="1966.93" />
         <b x="2258.27" y="1765.66" />
         <radius>66</radius>
-        <id>4330965424</id>
+        <id>4506060704</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -306,7 +334,7 @@
         <a x="1959.58" y="1970.83" />
         <b x="2181.18" y="1966.93" />
         <radius>66</radius>
-        <id>4331057568</id>
+        <id>4506063568</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -321,7 +349,7 @@
         <a x="1475.31" y="2030.72" />
         <b x="1959.58" y="1970.83" />
         <radius>66</radius>
-        <id>4561684704</id>
+        <id>4505978128</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -336,7 +364,7 @@
         <a x="872.97" y="2022.16" />
         <b x="1475.31" y="2030.72" />
         <radius>66</radius>
-        <id>4561705264</id>
+        <id>4505981216</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -351,7 +379,7 @@
         <a x="741.237" y="1867.04" />
         <b x="872.97" y="2022.16" />
         <radius>66</radius>
-        <id>4561430096</id>
+        <id>4506070608</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -366,7 +394,7 @@
         <a x="507.32" y="1836.26" />
         <b x="741.237" y="1867.04" />
         <radius>66</radius>
-        <id>4561675376</id>
+        <id>4506120528</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -381,7 +409,7 @@
         <a x="327.573" y="1954.45" />
         <b x="507.32" y="1836.26" />
         <radius>66</radius>
-        <id>4561668752</id>
+        <id>4505959200</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -396,7 +424,7 @@
         <a x="32.2611" y="1965.44" />
         <b x="327.573" y="1954.45" />
         <radius>66</radius>
-        <id>4561730880</id>
+        <id>4505998880</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -411,7 +439,7 @@
         <a x="-12.8014" y="1709.48" />
         <b x="32.2611" y="1965.44" />
         <radius>66</radius>
-        <id>4330950240</id>
+        <id>4506139312</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -426,7 +454,7 @@
         <a x="106.164" y="1379.63" />
         <b x="-12.8014" y="1709.48" />
         <radius>66</radius>
-        <id>4561736384</id>
+        <id>4506126928</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -441,7 +469,7 @@
         <a x="399.971" y="1226.41" />
         <b x="106.164" y="1379.63" />
         <radius>66</radius>
-        <id>4561689856</id>
+        <id>4506153216</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -456,7 +484,7 @@
         <a x="398.169" y="1071.4" />
         <b x="399.971" y="1226.41" />
         <radius>66</radius>
-        <id>4561679888</id>
+        <id>4505820320</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -471,7 +499,7 @@
         <a x="64.7061" y="986.682" />
         <b x="398.169" y="1071.4" />
         <radius>66</radius>
-        <id>4561699760</id>
+        <id>4505823184</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -486,7 +514,7 @@
         <a x="86.3361" y="644.207" />
         <b x="64.7061" y="986.682" />
         <radius>66</radius>
-        <id>4561703376</id>
+        <id>4391235472</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -501,7 +529,7 @@
         <a x="17.8411" y="71.0113" />
         <b x="86.3361" y="644.207" />
         <radius>66</radius>
-        <id>4561676736</id>
+        <id>4506128272</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -516,7 +544,7 @@
         <a x="2362" y="314.787" />
         <b x="2276.52" y="842.342" />
         <radius>66</radius>
-        <id>4561694704</id>
+        <id>4506132064</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -531,7 +559,7 @@
         <a x="2276.52" y="842.342" />
         <b x="2258.27" y="1765.66" />
         <radius>66</radius>
-        <id>4561664272</id>
+        <id>4506134992</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -546,7 +574,7 @@
         <a x="1594.74" y="-66.6611" />
         <b x="1794.72" y="130.758" />
         <radius>46</radius>
-        <id>4561672720</id>
+        <id>4505959936</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -561,7 +589,7 @@
         <a x="1851.13" y="325.614" />
         <b x="1794.72" y="130.758" />
         <radius>46</radius>
-        <id>4561753120</id>
+        <id>4391255328</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -576,7 +604,7 @@
         <a x="2225.45" y="156.397" />
         <b x="1851.13" y="325.614" />
         <radius>46</radius>
-        <id>4561756480</id>
+        <id>4391313040</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -591,7 +619,7 @@
         <a x="2527.99" y="-51.2778" />
         <b x="2225.45" y="156.397" />
         <radius>46</radius>
-        <id>4331426704</id>
+        <id>4391205616</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>
@@ -606,7 +634,7 @@
         <a x="-93.73" y="1193.26" />
         <b x="155.015" y="1175.23" />
         <radius>49</radius>
-        <id>4561763264</id>
+        <id>4506002304</id>
         <body_id>0</body_id>
         <sensor>0</sensor>
         <e>0.5</e>

@@ -194,7 +194,6 @@
 		D425C81F17F5CE7D0057F993 /* player-center.png in Resources */ = {isa = PBXBuildFile; fileRef = D425C81917F5CE7D0057F993 /* player-center.png */; };
 		D425C82017F5CE7D0057F993 /* player-rockets.png in Resources */ = {isa = PBXBuildFile; fileRef = D425C81A17F5CE7D0057F993 /* player-rockets.png */; };
 		D425C82117F5CE7D0057F993 /* player-cannon.png in Resources */ = {isa = PBXBuildFile; fileRef = D425C81B17F5CE7D0057F993 /* player-cannon.png */; };
-		D425C82317F5D5890057F993 /* XML in Resources */ = {isa = PBXBuildFile; fileRef = D425C82217F5D5890057F993 /* XML */; };
 		D4861A3917F61262009D7B5B /* Joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = D4861A3817F61262009D7B5B /* Joystick.m */; };
 		D4861A3C17F62127009D7B5B /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = D4861A3B17F62127009D7B5B /* Bullet.m */; };
 		D4861A4D17F8F137009D7B5B /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = D4861A4B17F8F137009D7B5B /* flower.png */; };
@@ -213,6 +212,7 @@
 		D4861A6A17F9D93B009D7B5B /* shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4861A6817F9D93B009D7B5B /* shoot.wav */; };
 		D4861A6D17FA250E009D7B5B /* CollisionSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = D4861A6C17FA250E009D7B5B /* CollisionSounds.m */; };
 		D4861A6F17FA27C9009D7B5B /* enemy-bump.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4861A6E17FA27C9009D7B5B /* enemy-bump.wav */; };
+		D4861A7117FB421B009D7B5B /* XML in Resources */ = {isa = PBXBuildFile; fileRef = D4861A7017FB421B009D7B5B /* XML */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -595,7 +595,6 @@
 		D425C81917F5CE7D0057F993 /* player-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-center.png"; sourceTree = "<group>"; };
 		D425C81A17F5CE7D0057F993 /* player-rockets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-rockets.png"; sourceTree = "<group>"; };
 		D425C81B17F5CE7D0057F993 /* player-cannon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-cannon.png"; sourceTree = "<group>"; };
-		D425C82217F5D5890057F993 /* XML */ = {isa = PBXFileReference; lastKnownFileType = folder; name = XML; path = Resources/XML; sourceTree = "<group>"; };
 		D4861A3717F61262009D7B5B /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
 		D4861A3817F61262009D7B5B /* Joystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joystick.m; sourceTree = "<group>"; };
 		D4861A3A17F62127009D7B5B /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
@@ -618,6 +617,7 @@
 		D4861A6B17FA250E009D7B5B /* CollisionSounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionSounds.h; sourceTree = "<group>"; };
 		D4861A6C17FA250E009D7B5B /* CollisionSounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionSounds.m; sourceTree = "<group>"; };
 		D4861A6E17FA27C9009D7B5B /* enemy-bump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "enemy-bump.wav"; sourceTree = "<group>"; };
+		D4861A7017FB421B009D7B5B /* XML */ = {isa = PBXFileReference; lastKnownFileType = folder; name = XML; path = Resources/XML; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -709,9 +709,9 @@
 		D425C34517F1F8760057F993 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D4861A7017FB421B009D7B5B /* XML */,
 				D4861A6617F9D93B009D7B5B /* Sounds */,
 				D4861A6317F9BECC009D7B5B /* Particle Defs */,
-				D425C82217F5D5890057F993 /* XML */,
 				D425C81317F5CE7D0057F993 /* Images */,
 				D425C34617F1F8760057F993 /* Default.png */,
 				D425C34817F1F8760057F993 /* Default@2x.png */,
@@ -1387,6 +1387,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Tinybop;
+				TargetAttributes = {
+					D425C32C17F1F8760057F993 = {
+						DevelopmentTeam = Y22BVM39A5;
+					};
+				};
 			};
 			buildConfigurationList = D425C32817F1F8760057F993 /* Build configuration list for PBXProject "Boidlings" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1413,13 +1418,13 @@
 				D425C35717F1F8760057F993 /* Icon.png in Resources */,
 				D4861A5217F8F8CA009D7B5B /* propeller-hd.png in Resources */,
 				D425C4B517F1F8790057F993 /* ChangeLog in Resources */,
+				D4861A7117FB421B009D7B5B /* XML in Resources */,
 				D4861A5B17F8F8E0009D7B5B /* bullet-hd.png in Resources */,
 				D425C81D17F5CE7D0057F993 /* enemy.png in Resources */,
 				D4861A5D17F8F8E0009D7B5B /* player-center-hd.png in Resources */,
 				D4861A6217F901D0009D7B5B /* enemy-propeller.png in Resources */,
 				D4861A4D17F8F137009D7B5B /* flower.png in Resources */,
 				D425C34917F1F8760057F993 /* Default@2x.png in Resources */,
-				D425C82317F5D5890057F993 /* XML in Resources */,
 				D425C35317F1F8760057F993 /* Icon-Small.png in Resources */,
 				D4861A5E17F8F8E0009D7B5B /* player-rockets-hd.png in Resources */,
 				D4861A4E17F8F137009D7B5B /* propeller.png in Resources */,
@@ -1666,6 +1671,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1683,6 +1690,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Boidlings;
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"Flockers/libs/Chipmunk/include/chipmunk\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1692,6 +1700,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Flockers/Prefix.pch;
@@ -1708,6 +1718,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Boidlings;
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"Flockers/libs/Chipmunk/include/chipmunk\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

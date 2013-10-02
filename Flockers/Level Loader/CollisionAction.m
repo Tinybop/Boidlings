@@ -1,5 +1,6 @@
 #include "CollisionAction.h"
 
+//This is kind of bad...
 #define CP_HASH_COEF (3344921057ul)
 #define CP_HASH_PAIR(A, B) ((cpHashValue)(A)*CP_HASH_COEF ^ (cpHashValue)(B)*CP_HASH_COEF)
 
