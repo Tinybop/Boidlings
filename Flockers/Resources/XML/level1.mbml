@@ -1,43 +1,19 @@
 <view bottom="0" left="0" top="2000" right="2300" editScale="1" topColor="#64c464" midColor="#64d864" bottomColor="#64f664">
-	<line x1="1986.22" y1="745.175" x2="1802.2" y2="638.93" width="4"/>
-	<line x1="1818.27" y1="647.729" x2="1797.24" y2="633.006" width="12"/>
-	<line x1="2019.53" y1="560.594" x2="2024.56" y2="532.038" width="16"/>
-	<line x1="306.853" y1="1361.23" x2="306.853" y2="1328.13" width="12"/>
-	<line x1="1331.2" y1="1973.24" x2="1331.2" y2="132.34" width="2"/>
-	<line x1="1298.03" y1="1981.37" x2="1298.03" y2="87.1103" width="2"/>
-	<line x1="307.176" y1="1459.09" x2="307.176" y2="1335.72" width="4"/>
-	<line x1="1248.1" y1="1990.73" x2="1248.1" y2="99.1894" width="3"/>
 	<line x1="1987.32" y1="745.978" x2="2025.98" y2="526.689" width="4"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/propeller.png" x="307.213" y="1459.48" z="1" uid="-1">
-		<actions>
-			<repeat_forever>
-				<rotate_by duration="1" rotation="90"/>
-			</repeat_forever>
-		</actions>
-	</item>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/propeller.png" x="1986.7" y="745.405" z="1" uid="-1">
-		<actions>
-			<repeat_forever>
-				<rotate_by duration="1" rotation="90"/>
-			</repeat_forever>
-		</actions>
-	</item>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="2116.45" y="519.45" z="1" scale="0.9" angle="-30" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="1703.37" y="1585.02" z="1" angle="20" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="2099.87" y="524.543" z="1" scale="0.8" angle="-5" flipX="true" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="2070.51" y="541.665" z="1" angle="-5" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="2083.38" y="530.138" z="1" scale="0.7" angle="-10" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="1277.16" y="147.587" z="1" flipX="true" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="287.568" y="1376.16" z="1" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="326.621" y="1358.84" z="1" scale="0.9" angle="-25" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="1800" y="1585.93" z="1" scale="0.8" angle="-15" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="853.915" y="796.576" z="1" angle="-20" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="1556.24" y="965.147" z="1" scale="0.5" angle="30" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="511.945" y="152.028" z="1" flipX="true" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="1540.07" y="947.946" z="1" scale="0.6" angle="65" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="193.526" y="116.746" z="1" angle="-5" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="1540.96" y="894.69" z="1" scale="0.6" angle="120" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Scenery/flower.png" x="963.538" y="1496.37" z="1" angle="-165" anchorX="0.5" anchorY="0" uid="-1">
+	<line x1="1248.1" y1="1990.73" x2="1248.1" y2="99.1894" width="3"/>
+	<line x1="307.176" y1="1459.09" x2="307.176" y2="1335.72" width="4"/>
+	<line x1="1298.03" y1="1981.37" x2="1298.03" y2="87.1103" width="2"/>
+	<line x1="1331.2" y1="1973.24" x2="1331.2" y2="132.34" width="2"/>
+	<line x1="306.853" y1="1361.23" x2="306.853" y2="1328.13" width="12"/>
+	<line x1="2019.53" y1="560.594" x2="2024.56" y2="532.038" width="16"/>
+	<line x1="1818.27" y1="647.729" x2="1797.24" y2="633.006" width="12"/>
+	<line x1="1986.22" y1="745.175" x2="1802.2" y2="638.93" width="4"/>
+	<item file="../Images/Player/bullet.png" name="enemy-spawn" x="1200" y="576" z="1" uid="-1"/>
+	<item file="../Images/Player/bullet.png" name="enemy-spawn" x="1310" y="1296" z="1" uid="-1"/>
+	<item file="../Images/Player/bullet.png" name="enemy-spawn" x="1957" y="1082" z="1" uid="-1"/>
+	<item file="../Images/Player/bullet.png" name="enemy-spawn" x="278" y="1670" z="1" uid="-1"/>
+	<item file="../Images/Player/bullet.png" name="enemy-spawn" x="318.682" y="809.681" z="1" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="963.538" y="1496.37" z="1" angle="-165" anchorX="0.5" anchorY="0" uid="-1">
 		<actions>
 			<repeat_forever>
 				<sequence>
@@ -51,10 +27,34 @@
 			</repeat_forever>
 		</actions>
 	</item>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Player/bullet.png" name="enemy-spawn" x="318.682" y="809.681" z="1" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Player/bullet.png" name="enemy-spawn" x="278" y="1670" z="1" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Player/bullet.png" name="enemy-spawn" x="1957" y="1082" z="1" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Player/bullet.png" name="enemy-spawn" x="1310" y="1296" z="1" uid="-1"/>
-	<item file="/Users/rob/dev/Boidlings/Flockers/Resources/Images/Player/bullet.png" name="enemy-spawn" x="1200" y="576" z="1" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="1540.96" y="894.69" z="1" scale="0.6" angle="120" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="193.526" y="116.746" z="1" angle="-5" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="1540.07" y="947.946" z="1" scale="0.6" angle="65" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="511.945" y="152.028" z="1" flipX="true" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="1556.24" y="965.147" z="1" scale="0.5" angle="30" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="853.915" y="796.576" z="1" angle="-20" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="1800" y="1585.93" z="1" scale="0.8" angle="-15" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="326.621" y="1358.84" z="1" scale="0.9" angle="-25" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="287.568" y="1376.16" z="1" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="1277.16" y="147.587" z="1" flipX="true" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="2083.38" y="530.138" z="1" scale="0.7" angle="-10" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="2070.51" y="541.665" z="1" angle="-5" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="2099.87" y="524.543" z="1" scale="0.8" angle="-5" flipX="true" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="1703.37" y="1585.02" z="1" angle="20" uid="-1"/>
+	<item file="../Images/Scenery/flower.png" x="2116.45" y="519.45" z="1" scale="0.9" angle="-30" uid="-1"/>
+	<item file="../Images/Scenery/propeller.png" x="1986.7" y="745.405" z="1" uid="-1">
+		<actions>
+			<repeat_forever>
+				<rotate_by duration="1" rotation="90"/>
+			</repeat_forever>
+		</actions>
+	</item>
+	<item file="../Images/Scenery/propeller.png" x="307.213" y="1459.48" z="1" uid="-1">
+		<actions>
+			<repeat_forever>
+				<rotate_by duration="1" rotation="90"/>
+			</repeat_forever>
+		</actions>
+	</item>
 </view>
 
